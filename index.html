@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,9 @@
 <body class="bg-primary">
   <header>
     <a href="./">
-      <img src="https://cdn.statically.io/gh/maurilio-vilela/portfolio/main/src/img/logo.svg" alt="VilelaTech">
+      <picture>
+        <img src="https://cdn.statically.io/gh/maurilio-vilela/portfolio/main/src/img/logo.svg" alt="VilelaTech">
+      </picture>
     </a>
     <section class="nav-items">
       <div class="container-menu">
@@ -43,99 +44,102 @@
       </div>
     </section>
   </header>
-  <section id="home">
-    <div class="container">
-      <div class="column-left">
-        <h1>Só projetos incríveis</h1>
-        <p>
-          Entre em contato pelo formulário para saber mais sobre aplicações de excelência.
-        </p>
-        <a href="#contact" id="CTA-button">Comece agora!</a>
+  <main>
+    <section id="home">
+      <div class="container">
+        <div class="column-left">
+          <h1>Só projetos incríveis</h1>
+          <p>
+            Entre em contato pelo formulário para saber mais sobre aplicações de excelência.
+          </p>
+          <a href="#contact" id="CTA-button">Comece agora!</a>
+        </div>
+        <picture class="column-right">
+          <img src="https://cdn.statically.io/gh/maurilio-vilela/portfolio/main/src/img/web-development.gif" alt="Illustration" id="home-image" />
+        </picture>
       </div>
-      <picture class="column-right">
-        <img src="https://cdn.statically.io/gh/maurilio-vilela/portfolio/main/src/img/web-development.gif" alt="Illustration" id="home-image" />
-      </picture>
-    </div>
-  </section>
-  <section>
-    <div id="about" class="container">
-      <div class="column-left">
-        <img class="perfil" src="https://cdn.statically.io/gh/maurilio-vilela/portfolio/main/src/img/perfil.jpg" alt="Maurílio Vilela">
-      </div>
-      <div class="column-right about">
-        <h4>Hi There! I'm</h4>
-        <h2>Maurílio Vilela</h2>
-        <p>
-          A professional full-stack web developer, i'm 29 years old and I live in São Luís - MA.
-          I'm studying full stack web development at StartSe, here you'll see a little about my work, some projects already developed.
-        </p>
-        <section class="about-contact">
-          <i class="icon-html5-alt"></i>
-          <i class="icon-css3-alt"></i>
-          <i class="icon-bootstrap"></i>
-          <i class="icon-reactjs"></i>
-          <i class="icon-javascript-alt"></i>
-          <i class="icon-node-js"></i>
-          <i class="icon-java"></i>
-          <i class="icon-spring"></i>
-          <i class="icon-apache"></i>
-          <i class="icon-wordpress"></i>
-          <i class="icon-mysql-alt"></i>
-          <i class="icon-mongodb"></i>
-        </section>
-        <p></p>
-        <section class="about-contact">
-          <a target="_blank" href="https://github.com/maurilio-vilela/"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/mauriliovilela/"><i class="fa-brands fa-linkedin"></i></a>
-          <a target="_blank" href="https://www.instagram.com/mauriliovilela/"><i class="fa-brands fa-instagram"></i></a>
-        </section>
-      </div>
-  </section>
-  <form id="contact" action="http://google.com">
-    <section>
-      <h2>Entre em contato</h2>
-      <p>
-        Nome:
-        <input type="text" required name="name" size="40" maxlength="40" placeholder="Digite seu nome">
-      </p>
-      <p>
-        E-mail:
-        <input type="email" required name="email" size="40" maxlength="40" placeholder="Digite seu e-mail">
-      </p>
-      <p>
-        Mensagem:
-        <textarea name="mensage" required placeholder="Digite seu e-mail" id="" cols="30" rows="4"></textarea>
-      </p>
-     <!-- <p>
-        Você faz exervícios regularmente?
-        <input type="radio" name="exercise" value="1"> Sim
-        <input type="radio" name="exercise" value="2"> Não
-      </p>
-
-      <p>
-        Por onde você lê sobre seus tópicos favoritos? </p>
-        <input type="checkbox" name="Books"> Livros
-        <input type="checkbox" name="Web"> Sites
-        <input type="checkbox" name="Apps"> Aplicativos
-        <input type="checkbox" name="Magazines"> Revistas
-      </p>
-
-      <p>
-        Qual gênero de filme que você mais gosta?
-        <select name="moviePref" id="">
-          <option>
-          <option value="1">Comédia</option>
-          <option value="2">Romance</option>
-          <option value="3">Drama</option>
-          <option value="4">Terros</option>
-          <option value="5">Ação</option>
-        </select>
-      </p>-->
-      <input class="button-primary" type="submit" value="Enviar">
     </section>
-  </form>
-
-    <footer>
+    <section id="about">
+      <div class="container">
+        <div class="column-left">
+          <picture>
+            <img class="perfil" src="https://cdn.statically.io/gh/maurilio-vilela/portfolio/main/src/img/perfil.jpg" alt="Maurílio Vilela">
+          </picture>
+        </div>
+        <div class="column-right about">
+          <h4>Hi There! I'm</h4>
+          <h2>Maurílio Vilela</h2>
+          <p>
+            A professional full-stack web developer, i'm 29 years old and I live in São Luís - MA.
+            I'm studying full stack web development at StartSe, here you'll see a little about my work, some projects already developed.
+          </p>
+          <section class="about-contact">
+            <i class="icon-html5-alt"></i>
+            <i class="icon-css3-alt"></i>
+            <i class="icon-bootstrap"></i>
+            <i class="icon-reactjs"></i>
+            <i class="icon-javascript-alt"></i>
+            <i class="icon-node-js"></i>
+            <i class="icon-java"></i>
+            <i class="icon-spring"></i>
+            <i class="icon-apache"></i>
+            <i class="icon-wordpress"></i>
+            <i class="icon-mysql-alt"></i>
+            <i class="icon-mongodb"></i>
+          </section>
+          <p></p>
+          <section class="about-contact">
+            <a target="_blank" href="https://github.com/maurilio-vilela/"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/mauriliovilela/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.instagram.com/mauriliovilela/"><i class="fa-brands fa-instagram"></i></a>
+          </section>
+        </div>
+    </section>
+    <section id="contact">
+      <form action="http://google.com">
+        <h2>Entre em contato</h2>
+        <p>
+          Nome:
+          <input type="text" required name="name" size="40" maxlength="40" placeholder="Digite seu nome">
+        </p>
+        <p>
+          E-mail:
+          <input type="email" required name="email" size="40" maxlength="40" placeholder="Digite seu e-mail">
+        </p>
+        <p>
+          Mensagem:
+          <textarea name="mensage" required placeholder="Digite seu e-mail" id="" cols="30" rows="4"></textarea>
+        </p>
+        <!-- 
+        <p>
+          Você faz exervícios regularmente?
+          <input type="radio" name="exercise" value="1"> Sim
+          <input type="radio" name="exercise" value="2"> Não
+        </p>
+        <p>
+          Por onde você lê sobre seus tópicos favoritos? </p>
+          <input type="checkbox" name="Books"> Livros
+          <input type="checkbox" name="Web"> Sites
+          <input type="checkbox" name="Apps"> Aplicativos
+          <input type="checkbox" name="Magazines"> Revistas
+        </p>
+        <p>
+          Qual gênero de filme que você mais gosta?
+          <select name="moviePref" id="">
+            <option>
+            <option value="1">Comédia</option>
+            <option value="2">Romance</option>
+            <option value="3">Drama</option>
+            <option value="4">Terros</option>
+            <option value="5">Ação</option>
+          </select>
+        </p>
+        -->
+        <input class="button-primary" type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+  <footer>
     <p>
       Desenvolvido com 
       <span class="material-symbols-outlined red">
@@ -145,5 +149,4 @@
     </p>
   </footer>
 </body>
-
 </html>
